@@ -1,3 +1,6 @@
 ---
+- name: Update any Vagrant plugins installed
+  shell: vagrant plugin update
+
 - name: Install Vagrant Hosts Updater plugin
   shell: vagrant plugin install vagrant-hostsupdater
