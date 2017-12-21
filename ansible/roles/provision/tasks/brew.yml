@@ -1,0 +1,30 @@
+---
+- name: Update homebrew and all packages
+  homebrew:
+    update_homebrew: yes
+    upgrade_all: yes
+
+- name: Install homebrew taps
+  homebrew_tap:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{brew_taps}}"
+
+- name: Install homebrew packages
+  homebrew:
+    name: "{{ item }}"
+    state: latest
+  with_items: "{{brew_packages}}"
+
+- name: Install homebrew casks
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+    install_options: force
+  with_items: "{{brew_casks}}"
+
+- name: Provide alias to composer so we can run .phar
+  file:
+    src: /usr/local/bin/composer
+    dest: /usr/local/bin/composer.phar
+    state: link

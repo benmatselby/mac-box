@@ -1,0 +1,36 @@
+---
+brew_taps:
+  - homebrew/php
+
+brew_packages:
+  - bash-completion
+  - git
+  - node
+  - nmap
+  - ansible
+  - cowsay
+  - httpie
+  - curl
+  - wget
+  - mcrypt
+  - composer
+
+brew_casks:
+  - virtualbox
+  - vagrant
+
+gem_packages:
+  - lolcat
+  - jsduck
+
+node_packages:
+  - underscore-cli
+  - less
+  - grunt-cli
+
+old_php_packages:
+  - php71-xdebug
+  - php71
+
+php_version: 7.2
+php_formula_name: 72

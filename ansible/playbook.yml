@@ -1,0 +1,5 @@
+- name: a playbook to setup a development mac
+  hosts: mac
+  connection: local
+  roles:
+    - provision

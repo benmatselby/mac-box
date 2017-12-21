@@ -1,0 +1,24 @@
+---
+- name: Remove old PHP packages
+  homebrew:
+    name: "{{ item }}"
+    state: absent
+    install_options: force
+  with_items: "{{old_php_packages}}"
+
+- name: Install PHP
+  homebrew:
+    name: "php{{ php_formula_name }}"
+    state: latest
+    install_options: with-imap
+
+- name: Install PHP extensions
+  homebrew:
+    name: "php{{ php_formula_name }}-xdebug"
+    state: latest
+
+- name: Copy php.ini file
+  copy:
+    src: custom-php.ini
+    dest: /usr/local/etc/php/{{ php_version }}/conf.d/
+    mode: 0644
