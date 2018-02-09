@@ -1,6 +1,6 @@
 ---
 - name: Update any Vagrant plugins installed
-  shell: vagrant plugin update
-
-- name: Install Vagrant Hosts Updater plugin
   shell: vagrant plugin install vagrant-hostsupdater
+
+- name: Prune any vagrant boxes that are no longer used
+  shell: vagrant box prune
