@@ -3,5 +3,4 @@
 - import_tasks: brew.yml
 - import_tasks: vagrant.yml
 - import_tasks: php.yml
-- import_tasks: gem.yml
 - import_tasks: npm.yml

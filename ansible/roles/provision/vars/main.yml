@@ -9,7 +9,6 @@ brew_packages:
   - nmap
   - ansible
   - cowsay
-  - httpie
   - curl
   - wget
   - mcrypt
@@ -19,10 +18,6 @@ brew_packages:
 brew_casks:
   - virtualbox
   - vagrant
-
-gem_packages:
-  - lolcat
-  - jsduck
 
 node_packages:
   - underscore-cli
