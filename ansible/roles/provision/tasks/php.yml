@@ -12,10 +12,10 @@
     state: latest
     install_options: with-imap
 
-- name: Install PHP extensions
-  homebrew:
-    name: "php{{ php_formula_name }}-xdebug"
-    state: latest
+- name: Install PHP Xdebug extension
+  pear:
+    name: pecl/xdebug
+    state: present
 
 - name: Copy php.ini file
   copy:
