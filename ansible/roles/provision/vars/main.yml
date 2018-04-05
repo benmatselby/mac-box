@@ -14,6 +14,8 @@ brew_packages:
   - mcrypt
   - composer
   - irssi
+  - go
+  - dep
 
 brew_casks:
   - virtualbox
