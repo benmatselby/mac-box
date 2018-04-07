@@ -1,7 +1,4 @@
 ---
-brew_taps:
-  - homebrew/php
-
 brew_packages:
   - bash-completion
   - git
@@ -11,11 +8,14 @@ brew_packages:
   - cowsay
   - curl
   - wget
-  - mcrypt
   - composer
   - irssi
   - go
   - dep
+
+old_brew_packages:
+  - php72-xdebug
+  - mcrypt
 
 brew_casks:
   - virtualbox
@@ -25,10 +25,6 @@ node_packages:
   - underscore-cli
   - less
   - grunt-cli
-
-old_php_packages:
-  - php71-xdebug
-  - php71
 
 php_version: 7.2
 php_formula_name: 72

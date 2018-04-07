@@ -4,17 +4,18 @@
     update_homebrew: yes
     upgrade_all: yes
 
-- name: Install homebrew taps
-  homebrew_tap:
-    name: "{{ item }}"
-    state: present
-  with_items: "{{brew_taps}}"
-
 - name: Install homebrew packages
   homebrew:
     name: "{{ item }}"
     state: latest
   with_items: "{{brew_packages}}"
+
+- name: Remove old homebrew packages
+  homebrew:
+    name: "{{ item }}"
+    state: absent
+    install_options: force
+  with_items: "{{old_brew_packages}}"
 
 - name: Install homebrew casks
   homebrew_cask:
