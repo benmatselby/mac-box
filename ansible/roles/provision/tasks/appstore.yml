@@ -1,3 +1,0 @@
----
-- name: Apply all updates for the Mac from the App Store
-  shell: softwareupdate -ia

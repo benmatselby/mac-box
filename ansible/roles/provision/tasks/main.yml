@@ -1,5 +1,4 @@
 ---
-- import_tasks: appstore.yml
 - import_tasks: brew.yml
 - import_tasks: vagrant.yml
 - import_tasks: php.yml
