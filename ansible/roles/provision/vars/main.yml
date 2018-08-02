@@ -12,6 +12,7 @@ brew_packages:
   - irssi
   - go
   - dep
+  - hugo
 
 old_brew_packages:
   - php72-xdebug
