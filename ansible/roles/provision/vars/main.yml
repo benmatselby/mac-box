@@ -13,6 +13,7 @@ brew_packages:
   - go
   - dep
   - hugo
+  - shellcheck
 
 old_brew_packages:
   - php72-xdebug
