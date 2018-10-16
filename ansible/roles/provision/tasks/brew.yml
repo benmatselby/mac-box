@@ -6,23 +6,19 @@
 
 - name: Install homebrew packages
   homebrew:
-    name: "{{ item }}"
-    state: latest
-  with_items: "{{brew_packages}}"
+    name: "{{brew_packages}}"
 
 - name: Remove old homebrew packages
   homebrew:
-    name: "{{ item }}"
+    name: "{{old_brew_packages}}"
     state: absent
     install_options: force
-  with_items: "{{old_brew_packages}}"
 
 - name: Install homebrew casks
   homebrew_cask:
-    name: "{{ item }}"
+    name: "{{brew_casks}}"
     state: present
     install_options: force
-  with_items: "{{brew_casks}}"
 
 - name: Provide alias to composer so we can run .phar
   file:
