@@ -27,6 +27,7 @@ node_packages:
   - underscore-cli
   - less
   - grunt-cli
+  - gulp-cli
 
 php_version: 7.2
 php_formula_name: 72
