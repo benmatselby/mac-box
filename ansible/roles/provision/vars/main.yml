@@ -16,8 +16,6 @@ brew_packages:
   - shellcheck
 
 old_brew_packages:
-  - php72-xdebug
-  - mcrypt
 
 brew_casks:
   - virtualbox
@@ -28,6 +26,3 @@ node_packages:
   - less
   - grunt-cli
   - gulp-cli
-
-php_version: 7.2
-php_formula_name: 72
