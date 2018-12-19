@@ -26,3 +26,4 @@ node_packages:
   - less
   - grunt-cli
   - gulp-cli
+  - fx
