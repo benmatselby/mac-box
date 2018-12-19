@@ -1,3 +1,0 @@
----
-- name: Prune any vagrant boxes that are no longer used
-  shell: vagrant box prune
