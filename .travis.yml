@@ -1,0 +1,10 @@
+language: python
+
+install:
+  - pip install ansible
+
+notifications:
+  email: true
+
+script:
+  - ansible-playbook --syntax-check ansible/playbook.yml
