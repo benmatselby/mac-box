@@ -14,6 +14,8 @@ brew_packages:
   - dep
   - hugo
   - shellcheck
+  - fx
+  - jq
 
 old_brew_packages:
 
@@ -26,4 +28,3 @@ node_packages:
   - less
   - grunt-cli
   - gulp-cli
-  - fx
