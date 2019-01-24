@@ -1,21 +1,21 @@
 ---
 brew_packages:
-  - bash-completion
-  - git
-  - node
-  - nmap
   - ansible
+  - bash-completion
+  - composer
   - cowsay
   - curl
-  - wget
-  - composer
-  - irssi
-  - go
   - dep
-  - hugo
-  - shellcheck
   - fx
+  - git
+  - go
+  - hugo
+  - irssi
   - jq
+  - nmap
+  - node
+  - shellcheck
+  - wget
 
 old_brew_packages:
 
