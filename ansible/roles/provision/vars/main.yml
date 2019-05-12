@@ -28,3 +28,7 @@ node_packages:
   - less
   - grunt-cli
   - gulp-cli
+  - '@angular/cli'
+  - pa11y
+  - pa11y-ci
+  - lighthouse
