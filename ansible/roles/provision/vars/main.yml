@@ -9,6 +9,7 @@ brew_packages:
   - fx
   - git
   - go
+  - hub
   - hugo
   - irssi
   - jq
@@ -20,15 +21,15 @@ brew_packages:
 old_brew_packages:
 
 brew_casks:
-  - virtualbox
   - vagrant
+  - virtualbox
 
 node_packages:
-  - underscore-cli
-  - less
+  - "@angular/cli"
   - grunt-cli
   - gulp-cli
-  - '@angular/cli'
+  - less
+  - lighthouse
   - pa11y
   - pa11y-ci
-  - lighthouse
+  - underscore-cli
