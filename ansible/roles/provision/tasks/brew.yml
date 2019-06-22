@@ -4,6 +4,11 @@
     update_homebrew: yes
     upgrade_all: yes
 
+- name: Install homebrew taps
+  homebrew_tap:
+    name: "{{brew_taps}}"
+    state: present
+
 - name: Install homebrew packages
   homebrew:
     name: "{{brew_packages}}"
