@@ -20,11 +20,5 @@
     state: present
     install_options: force
 
-- name: Provide alias to composer so we can run .phar
-  file:
-    src: /usr/local/bin/composer
-    dest: /usr/local/bin/composer.phar
-    state: link
-
 - name: Cleanup any old brew packages not in use
   shell: brew cleanup

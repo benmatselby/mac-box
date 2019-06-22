@@ -2,7 +2,6 @@
 brew_packages:
   - ansible
   - bash-completion
-  - composer
   - cowsay
   - curl
   - dep
@@ -19,6 +18,7 @@ brew_packages:
   - wget
 
 old_brew_packages:
+  - composer
 
 brew_casks:
   - vagrant
