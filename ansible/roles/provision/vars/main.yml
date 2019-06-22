@@ -1,8 +1,8 @@
 ---
 brew_packages:
   - ansible
+  - aws-sam-cli
   - bash-completion
-  - composer
   - cowsay
   - curl
   - dep
@@ -19,6 +19,10 @@ brew_packages:
   - wget
 
 old_brew_packages:
+  - composer
+
+brew_taps:
+  - aws/tap
 
 brew_casks:
   - vagrant

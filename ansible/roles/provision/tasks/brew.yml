@@ -4,6 +4,11 @@
     update_homebrew: yes
     upgrade_all: yes
 
+- name: Install homebrew taps
+  homebrew_tap:
+    name: "{{brew_taps}}"
+    state: present
+
 - name: Install homebrew packages
   homebrew:
     name: "{{brew_packages}}"
@@ -19,12 +24,6 @@
     name: "{{brew_casks}}"
     state: present
     install_options: force
-
-- name: Provide alias to composer so we can run .phar
-  file:
-    src: /usr/local/bin/composer
-    dest: /usr/local/bin/composer.phar
-    state: link
 
 - name: Cleanup any old brew packages not in use
   shell: brew cleanup
