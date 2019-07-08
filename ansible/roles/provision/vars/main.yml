@@ -3,6 +3,7 @@ brew_packages:
   - ansible
   - aws-sam-cli
   - bash-completion
+  - cfn-lint
   - cowsay
   - curl
   - dep
