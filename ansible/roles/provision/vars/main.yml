@@ -28,6 +28,7 @@ brew_taps:
 brew_casks:
   - vagrant
   - virtualbox
+  - dotnet
 
 node_packages:
   - "@angular/cli"
