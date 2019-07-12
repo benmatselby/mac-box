@@ -26,9 +26,9 @@ brew_taps:
   - aws/tap
 
 brew_casks:
+  - dotnet-sdk
   - vagrant
   - virtualbox
-  - dotnet
 
 node_packages:
   - "@angular/cli"
