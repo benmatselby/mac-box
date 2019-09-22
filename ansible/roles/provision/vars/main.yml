@@ -6,13 +6,11 @@ brew_packages:
   - cfn-lint
   - cowsay
   - curl
-  - dep
   - fx
   - git
   - go
   - hub
   - hugo
-  - irssi
   - jq
   - nmap
   - node
@@ -21,6 +19,8 @@ brew_packages:
 
 old_brew_packages:
   - composer
+  - dep
+  - irssi
 
 brew_taps:
   - aws/tap
@@ -31,7 +31,7 @@ brew_casks:
   - virtualbox
 
 node_packages:
-  - "@angular/cli"
+  - cdk
   - grunt-cli
   - gulp-cli
   - less
@@ -39,3 +39,6 @@ node_packages:
   - pa11y
   - pa11y-ci
   - underscore-cli
+
+old_node_packages:
+  - "@angular/cli"

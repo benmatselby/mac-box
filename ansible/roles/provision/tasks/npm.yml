@@ -5,3 +5,10 @@
     global: yes
     state: latest
   with_items: "{{node_packages}}"
+
+- name: Uninstall node packages
+  npm:
+    name: "{{ item }}"
+    global: yes
+    state: absent
+  with_items: "{{old_node_packages}}"
