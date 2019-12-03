@@ -1,6 +1,7 @@
 ---
 brew_packages:
   - ansible
+  - awscli
   - aws-sam-cli
   - bash-completion
   - cfn-lint
