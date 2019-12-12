@@ -15,6 +15,7 @@ brew_packages:
   - jq
   - nmap
   - node
+  - pyinvoke
   - shellcheck
   - wget
 
@@ -30,6 +31,7 @@ brew_casks:
   - dotnet-sdk
   - vagrant
   - virtualbox
+  - postman
 
 node_packages:
   - cdk
