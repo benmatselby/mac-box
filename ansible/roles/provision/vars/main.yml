@@ -1,14 +1,15 @@
 ---
 brew_packages:
   - ansible
-  - awscli
   - aws-sam-cli
+  - awscli
   - bash-completion
   - cfn-lint
   - cowsay
   - curl
   - fx
   - git
+  - github/gh/gh
   - go
   - hub
   - hugo
@@ -20,9 +21,6 @@ brew_packages:
   - wget
 
 old_brew_packages:
-  - composer
-  - dep
-  - irssi
 
 brew_taps:
   - aws/tap
