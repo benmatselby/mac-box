@@ -1,4 +1,5 @@
 ---
+- import_tasks: os.yml
 - import_tasks: brew.yml
 - import_tasks: npm.yml
 - import_tasks: shell.yml
