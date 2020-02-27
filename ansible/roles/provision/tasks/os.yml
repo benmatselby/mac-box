@@ -1,0 +1,3 @@
+---
+- name: Set the nice apple chime for startup (needs sudo)
+  shell: sh -c "sudo nvram StartupMute=%00"
