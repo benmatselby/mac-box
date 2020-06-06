@@ -20,6 +20,8 @@ brew_packages:
   - pyinvoke
   - reattach-to-user-namespace
   - shellcheck
+  - terraform
+  - tflint
   - tmux
   - tmuxinator
   - wget
