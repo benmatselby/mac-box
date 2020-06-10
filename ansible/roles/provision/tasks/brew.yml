@@ -25,5 +25,11 @@
     state: present
     install_options: force
 
+- name: Remove old homebrew casks
+  homebrew_cask:
+    name: "{{old_brew_casks}}"
+    state: absent
+    install_options: force
+
 - name: Cleanup any old brew packages not in use
   shell: brew cleanup

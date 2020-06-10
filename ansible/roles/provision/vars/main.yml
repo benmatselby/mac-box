@@ -3,21 +3,17 @@ brew_packages:
   - ansible
   - aws-sam-cli
   - awscli
-  - bash-completion
-  - cfn-lint
   - cowsay
   - curl
-  - fx
+  - fzf
   - git
   - github/gh/gh
   - go
   - httpie
-  - hub
   - hugo
   - jq
   - nmap
   - node
-  - pyinvoke
   - reattach-to-user-namespace
   - shellcheck
   - terraform
@@ -27,19 +23,25 @@ brew_packages:
   - wget
 
 old_brew_packages:
+  - bash-completion
+  - fx
+  - hub
+  - pyinvoke
+  - cfn-lint
 
 brew_taps:
   - aws/tap
 
 brew_casks:
-  - dotnet-sdk
   - vagrant
   - virtualbox
   - postman
 
+old_brew_casks:
+  - dotnet-sdk
+
 node_packages:
   - cdk
-  - grunt-cli
   - gulp-cli
   - http-server
   - less
@@ -49,4 +51,4 @@ node_packages:
   - underscore-cli
 
 old_node_packages:
-  - "@angular/cli"
+  - grunt-cli
