@@ -9,6 +9,7 @@ brew_packages:
   - git
   - github/gh/gh
   - go
+  - htop
   - httpie
   - hugo
   - jq
