@@ -3,6 +3,7 @@ brew_packages:
   - ansible
   - aws-sam-cli
   - awscli
+  - bash
   - cowsay
   - curl
   - fzf
