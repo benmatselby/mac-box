@@ -9,6 +9,7 @@ brew_packages:
   - fzf
   - git
   - github/gh/gh
+  - glow
   - go
   - htop
   - httpie
