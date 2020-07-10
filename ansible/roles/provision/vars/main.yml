@@ -1,7 +1,6 @@
 ---
 brew_packages:
   - ansible
-  - aws-sam-cli
   - awscli
   - bash
   - cowsay
@@ -15,6 +14,10 @@ brew_packages:
   - httpie
   - hugo
   - jq
+  - k9s
+  - kind
+  - kubectl
+  - kubectx
   - nmap
   - node
   - reattach-to-user-namespace
@@ -26,11 +29,7 @@ brew_packages:
   - wget
 
 old_brew_packages:
-  - bash-completion
-  - fx
-  - hub
-  - pyinvoke
-  - cfn-lint
+  - aws-sam-cli
 
 brew_taps:
   - aws/tap
@@ -44,14 +43,14 @@ old_brew_casks:
   - dotnet-sdk
 
 node_packages:
-  - cdk
-  - gulp-cli
   - http-server
   - less
-  - lighthouse
-  - pa11y
-  - pa11y-ci
-  - underscore-cli
 
 old_node_packages:
   - grunt-cli
+  - pa11y
+  - pa11y-ci
+  - underscore-cli
+  - lighthouse
+  - gulp-cli
+  - cdk
