@@ -18,6 +18,7 @@ brew_packages:
   - kind
   - kubectl
   - kubectx
+  - kube-ps1
   - nmap
   - node
   - reattach-to-user-namespace
@@ -29,7 +30,6 @@ brew_packages:
   - wget
 
 old_brew_packages:
-  - aws-sam-cli
 
 brew_taps:
   - aws/tap
@@ -48,9 +48,3 @@ node_packages:
 
 old_node_packages:
   - grunt-cli
-  - pa11y
-  - pa11y-ci
-  - underscore-cli
-  - lighthouse
-  - gulp-cli
-  - cdk
