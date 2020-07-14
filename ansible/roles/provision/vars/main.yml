@@ -30,6 +30,8 @@ brew_packages:
   - wget
 
 old_brew_packages:
+  - php72-xdebug
+  - mcrypt
 
 brew_taps:
   - aws/tap
@@ -48,3 +50,6 @@ node_packages:
 
 old_node_packages:
   - grunt-cli
+
+php_version: 7.4
+php_formula_name:
