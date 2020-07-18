@@ -22,7 +22,7 @@
 - name: Install homebrew casks
   homebrew_cask:
     name: "{{brew_casks}}"
-    state: present
+    state: upgraded
     install_options: force
 
 - name: Remove old homebrew casks
