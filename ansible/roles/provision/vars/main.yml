@@ -24,6 +24,7 @@ brew_packages:
   - reattach-to-user-namespace
   - shellcheck
   - terraform
+  - terragrunt
   - tflint
   - tmux
   - tmuxinator
