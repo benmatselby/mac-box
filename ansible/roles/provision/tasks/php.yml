@@ -7,7 +7,7 @@
 - name: Install PHP Xdebug extension
   pear:
     name: pecl/xdebug
-    state: present
+    state: latest
 
 - name: Copy php.ini file
   copy:
