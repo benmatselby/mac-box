@@ -1,7 +1,9 @@
 ---
 brew_packages:
+  - amazon-ecs-cli
   - ansible
   - awscli
+  - aws/tap/copilot-cli
   - bash
   - curl
   - fzf
@@ -30,7 +32,6 @@ brew_packages:
   - wget
 
 old_brew_packages:
-  - php72-xdebug
   - mcrypt
 
 brew_taps:
